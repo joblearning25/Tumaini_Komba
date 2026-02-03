@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumaini</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+        img:hover{
+            transform: scale(1.2);
+            transition: 4s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- section 1 -->
+         <section  class="row">
+            <div class="col-md-12">
+                <!-- Nav will carry all the contents of the navbar -->
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- navbar-brand shows the brand or the name of the website -->
+                    <a href="#" class="navbar-brand"><b>Tumaini Collections</b></a>
+                    <!-- navbar-toggler only shows when the navbar is collapsed -->
+                     <!-- data-bs-toggle="collapse" shows the button will show/hide something -->
+                      <!-- data-bs-target points to which element should expand/collapse -->
+                    <button class="navbar-toggler"  data-bs-toggle="collapse"  data-bs-target="#navbarcollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+
+                    <!-- hides content on a small device -->
+                     <!-- navbar-collapse alligns the navbar items when expanded -->
+                     <!-- id connects to the button so that when its clickes it expands on small device -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <!-- navbar-nav ensures correct spacing and alignment -->
+                        <div class="navbar-nav">
+                            <!-- nav-link style each link and active shows the active link -->
+                            <a href="index.html" class="nav-link active"> Home</a>
+                            <a href="beddings.html" class="nav-link">Beddings</a>
+                            <a href="#" class="nav-link">Fashion</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+         </section>
+         <!-- end of section 1 -->
+
+        <!-- section 2 -->
+         <section class="row mb-2 mt-2">
+            <div class="col-md-12">
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- wrapper -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/slide1.jpg" alt="slide1" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.jpg" alt="slide2" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide3.jpg" alt="slide3" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide4.jpg" alt="slide4" class="w-100 d-block">
+                        </div>
+
+                    </div>
+                    <!-- controllers -->
+                     <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon bg-danger"></span>
+                     </a>
+                     <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon bg-danger"></span>
+                     </a>
+
+                </div>
+
+            </div>
+
+         </section>
+
+        <!-- section 3 -->
+         <section class="row">
+            <div class="col-md-3 text-center">
+                <img src="images/advertex.jpg" alt="advert" height="400px">
+            </div>
+
+            <div class="col-md-3 text-center">
+                <img src="images/alionskettle.jpg" alt="kettle" height="230px" width="230px">
+                <h6>Alions Kettle</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed repellat deserunt porro, necessitatibus nam provident.</p>
+                <b class="text-warning">Ksh 2,300</b> <br>
+                <span class="badge bg-danger">15% OFF</span>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+                <img src="images/Mika2slicetoaster.png" alt="Toaster" width="230px" height="230px">
+                <h6>Mika Toaster</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita eveniet quisquam ipsam numquam excepturi.</p>
+                <b class="text-warning">Ksh 3,200</b> <br>
+                <span class="badge bg-danger">10% OFF</span>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+                <img src="images/cooker.jpg" alt="Cooker" width="230px" height="230px">
+                <h6>Top Cooker</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus accusantium provident laborum velit et!</p>
+                <b class="text-warning">Ksh 5,600</b> <br>
+                <span class="badge bg-danger">25% OFF</span>
+
+            </div>
+         </section>
+         <!-- end of section 3 -->
+
+        <hr><br>
+
+        <!-- section 4 -->
+         <section class="row">
+            <div class="col-md-6">
+                <img src="images/advert1.jpg" alt="advert1" height="400px" width="100%">
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/advert2.jpg" alt="advert2" height="400px" width="100%">
+
+            </div>
+        </section>
+        <!-- end of section 4 -->
+
+        <br><hr>
+
+        <!-- section 5 -->
+         <h3 style="text-decoration: overline;">Decors</h3>
+        <section class="row">
+            <div class="col-md-4 text-center">
+                <img src="images/decor1.jpg" alt="decor1" height="230px" width="230px">
+                <h6>Red Pattern Curtain</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusantium dignissimos accusamus, at officia voluptatem!</p>
+                <b class="text-warning">Ksh 2,300</b> <br>
+                <span class="badge bg-danger">15% OFF</span>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/decor2.jpg" alt="decor1" height="230px" width="230px">
+                <h6>Red Pattern Curtain</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusantium dignissimos accusamus, at officia voluptatem!</p>
+                <b class="text-warning">Ksh 2,300</b> <br>
+                <span class="badge bg-danger">15% OFF</span>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/decor3.jpg" alt="decor1" height="230px" width="230px">
+                <h6>Red Pattern Curtain</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusantium dignissimos accusamus, at officia voluptatem!</p>
+                <b class="text-warning">Ksh 2,300</b> <br>
+                <span class="badge bg-danger">15% OFF</span>
+
+            </div>
+
+        </section>
+        <!-- end of section 4 -->
+
+        <!-- section 5 -->
+        <h3 style="text-decoration: overline">Televisions</h3>
+
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <h6>Samsung 55" Smart TV</h6>
+                <img src="images/screen1.jpg" alt="Samsung TV" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 65,000</b><br />
+                <span class="badge bg-danger">10% off</span>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h6>LG 50" UHD 4K TV</h6>
+                <img src="images/screen2.jpg" alt="LG TV" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 58,000</b><br />
+                <span class="badge bg-danger">15% off</span>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h6>Sony Bravia 43" Smart TV</h6>
+                <img src="images/screen3.jpg" alt="Sony TV" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 72,000</b><br />
+                <span class="badge bg-danger">20% off</span>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h6>TCL 40" Android TV</h6>
+                <img src="images/screen4.jpg" alt="TCL TV" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 42,000</b><br />
+                <span class="badge bg-danger">12% off</span>
+            </div>
+        </section>
+
+        <!-- end of section 5 -->
+
+        <br />
+        <hr />
+
+
+        <!-- section six -->
+        <h3 style="text-decoration: overline">Smartphones</h3>
+        
+        <section class="row">
+            <div class="col-md-4 text-center">
+                <h6>Google Pixel 6, 5G</h6>
+                <img src="images/phone4.jpg" alt="" height="400px" width="100%" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ex
+                    asperiores laudantium error incidunt sit.
+                </p>
+                <b class="text-warning">Ksh 13,000</b><br />
+                <span class="badge bg-danger">10% off</span>
+            </div>
+        
+            <div class="col-md-4 text-center">
+                <h6>Techno Pop 7, 6.6 Inch</h6>
+                <img src="images/phone6.jpg" alt="" height="400px" width="100%" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ex
+                    asperiores laudantium error incidunt sit.
+                </p>
+                <b class="text-warning">Ksh 23,999</b><br />
+                <span class="badge bg-danger">15% off</span>
+            </div>
+        
+            <div class="col-md-4 text-center">
+                <h6>Itel A18, 5.0 Inch</h6>
+                <img src="images/phone3.jpg" alt="" height="400px" width="100%" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ex
+                    asperiores laudantium error incidunt sit.
+                </p>
+                <b class="text-warning">Ksh 83,000</b><br />
+                <span class="badge bg-danger">25% off</span>
+            </div>
+        </section>
+        <!-- end of section 6 -->
+        
+        <br />
+        <hr />
+
+        <!-- section 7 -->
+
+        <h3 style="text-decoration: overline">Bathroom Accessories</h3>
+
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <h6>Modern Shower Set</h6>
+                <img src="images/bath1.jpg" alt="Shower Set" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 12,500</b><br />
+                <span class="badge bg-danger">10% off</span>
+            </div>
+        
+            <div class="col-md-3 text-center">
+                <h6>Luxury Bathtub</h6>
+                <img src="images/bath2.jpg" alt="Bathtub" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 85,000</b><br />
+                <span class="badge bg-danger">15% off</span>
+            </div>
+        
+            <div class="col-md-3 text-center">
+                <h6>Bathroom Sink Mixer</h6>
+                <img src="images/bath3.jpg" alt="Sink Mixer" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 9,800</b><br />
+                <span class="badge bg-danger">8% off</span>
+            </div>
+        
+            <div class="col-md-3 text-center">
+                <h6>Wall Mounted Mirror</h6>
+                <img src="images/bath4.jpg" alt="Bathroom Mirror" width="100%" height="250px" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <b class="text-warning">Ksh 7,200</b><br />
+                <span class="badge bg-danger">5% off</span>
+            </div>
+        </section>
+        <!-- end of section 7 -->
+
+        <!-- section footer -->
+         <section class="row bg-warning text-light p-4 mt-4">
+            <div class="col-md-4">
+                <h4 class="text-center">About Us</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime ab, eum odio at recusandae a?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio, velit minus nemo cumque quae consequatur atque voluptate architecto ea.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-center">Contact Us</h4>
+                <form action="">
+                    <input type="email" placeholder="Enter your email" class="form-control" required> <br> 
+                    <textarea name="" id="" placeholder="Leave a comment.." class="form-control"></textarea> <br> 
+                    <input type="submit" value="Send a Message" class="btn btn-primary">
+                </form>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h4>Stay Connected</h4>
+                <a href="https://www.facebook.com"><img src="images/fb.png" alt=""></a> 
+                <a href="https://www.instagram.com"><img src="images/in.png" alt=""></a>
+                <a href="https://www.x.com"><img src="images/x.png" alt=""></a>
+
+                <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, impedit natus at aut molestias eligendi dolorem, accusamus perspiciatis, repellendus ipsam dolorum numquam animi sunt sequi similique molestiae. Excepturi, laborum cupiditate.</p>
+
+            </div>
+
+         </section>
+
+
+         <section class="row bg-dark text-light text-center pt-3 pb-2">
+                <h5 class="fs-6">Developed by YourName. &copy; 2026. All Rights Reserved</h5>
+         </section>
+
+    </div>
+</body>
+</html>
